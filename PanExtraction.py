@@ -9,7 +9,7 @@ def extract_pan(path):
     img = ImageEnhance.Color(img).enhance(0.0)
 
     # Sharpen the image
-    img = ImageEnhance.Sharpness(img).enhance(2.0)
+    #img = ImageEnhance.Sharpness(img).enhance(2.0)
 
     # Darken the Image
     img = ImageEnhance.Contrast(img).enhance(2.0)
